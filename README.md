@@ -41,4 +41,4 @@ jensam209@gmail.com
 
 ## License
 
-License '' \*\*jennifer sammy.
+License 'https://github.com/jenna-lab/PizzaRestaurant/blob/main/License.md' \*\*jennifer sammy.
