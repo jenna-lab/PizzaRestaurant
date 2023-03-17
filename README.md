@@ -25,9 +25,9 @@ RUBY/rails
 
 ## BDD/Deliverables
 
-Model Relationships
-Validations
-Routes
+- Model Relationships
+- Validations
+- Routes
 
 Videolink
 
