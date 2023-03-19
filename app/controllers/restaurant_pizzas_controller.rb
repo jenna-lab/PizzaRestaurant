@@ -9,6 +9,12 @@ class RestaurantPizzasController < ApplicationController
     end
   end
 
+  def index
+    restaurant_pizzas = RestaurantPizza.all
+    render json: restaurant_pizzas.as_json(include: :pizza)
+  end
+
+  
   private
 
   def restaurant_pizza_params
