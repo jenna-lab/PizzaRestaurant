@@ -1,10 +1,7 @@
 class RestaurantsController <ApplicationController
-  skip_before_action :verify_authenticity_token, only: [:destroy]
-
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
     def index
-        @restaurants = Restaurant.all
-        render json: @restaurants
+        render json: Restaurant.all
     end
 
     def show
