@@ -19,6 +19,7 @@ class RestaurantsController <ApplicationController
         head :no_content
     end
     
+    #create
       private
     
       def restaurant_params
