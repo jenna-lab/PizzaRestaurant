@@ -14,3 +14,26 @@ class PizzasController <ApplicationController
   end
 #create
 end
+# GET /restaurants
+# GET /restaurants/:id  If the `Restaurant` does not exist, return   "error": "Restaurant not found"
+# DELETE /restaurants/:id If the `Restaurant` does not exist, return "error": "Restaurant not found"
+# GET /pizzas
+# POST /restaurant_pizzas
+# post {
+
+#   "price": 5,
+
+#   "pizza_id": 1,
+
+#   "restaurant_id": 3
+
+# }
+
+
+
+
+
+
+
+
+

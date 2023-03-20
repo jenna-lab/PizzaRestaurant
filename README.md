@@ -29,7 +29,9 @@ RUBY/rails
 - Validations
 - Routes
 
-Videolink
+## Videolink
+
+[![Watch the video](video)](https://drive.google.com/file/d/1IUjfjeJjetD9iPoaZzGYNQmxA2cKDIsF/view)
 
 # Bugs
 
