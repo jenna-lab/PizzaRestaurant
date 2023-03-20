@@ -19,10 +19,13 @@ class RestaurantsController <ApplicationController
         head :no_content
     end
     
-    #create
-      private
-    
-      def restaurant_params
-        params.permit(:name, :location, :rating)
+    def create
+      restaurant = Restaurant.new(restaurant_params)
+      if restaurant.save
+        render json: restaurant, status: :created
+      else
+        render json: { error: "Failed to create restaurant" }, status: :unprocessable_entity
       end
+    end
+    
     end
