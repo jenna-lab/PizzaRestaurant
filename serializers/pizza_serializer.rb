@@ -1,4 +1,3 @@
 class PizzaSerializer < ActiveModel::Serializer
-    has_one :Pizza
-    
+  attributes :id, :name, :ingredients    
   end
